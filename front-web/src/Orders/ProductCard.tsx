@@ -5,10 +5,11 @@ type Props = {
     product:Product;
 }
 
-function formartPrice(){
+function formartPrice(price:number){
     const formatter = new Intl.NumberFormat('pt-BR',{
         style:'currency',
         currency:'BRL',
+        minimumFractionDigits:2
 
 
     })
@@ -28,7 +29,7 @@ function ProductCard({product}:Props){
                 alt={product.name}
             />
             <h3 className="order-card-price">
-               R$ {product.price}
+                {formartPrice(product.price)}
   
                 </h3>
 

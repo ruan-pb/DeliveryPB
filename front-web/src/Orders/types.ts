@@ -9,8 +9,16 @@ export type Product ={
     imageUri:string
 }
 
-export type OrderLocationdate = {
+export type OrderLocationDate = {
     latiude:number;
     longitude:number;
     adderss:string;
 }
+type ProductId = {
+    id:number;
+}
+
+export type OrderPayload = {
+    products:ProductId[];
+
+}&OrderLocationDate;

@@ -7,7 +7,7 @@ function Footer(){
 
         <footer className="main-footer">
 
-            App desenvolvido durante a 2º ed. do evente Semanda DevSuperior
+            App desenvolvido durante a 2º edição do evento "Semana DevSuperior"
 
             
             <div className="footer-icons">

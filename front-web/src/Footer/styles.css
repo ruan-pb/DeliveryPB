@@ -18,3 +18,9 @@
   .footer-icons > * {
     margin-right: 5px;
   }
+
+  .by-creator{
+    color: greenyellow;
+    text-align: center;
+    font-weight: bold;
+  }
